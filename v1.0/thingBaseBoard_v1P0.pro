@@ -1,4 +1,4 @@
-update=01/02/17 14:11:31
+update=2/3/2017 7:36:30 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -23,9 +23,19 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
+[schematic_editor]
+version=1
+PageLayoutDescrFile=C:/Users/bomma/Documents/GitHub/My Design templates/Pcb_Schematic_Worksheet.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=../../kicad-library
+LibDir=../../kicad-libraries/library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -59,15 +69,10 @@ LibName29=valves
 LibName30=edge_sma
 LibName31=RFM_module
 LibName32=xbee
+LibName33=C:/Users/bomma/Documents/GitHub/kicad-libraries/library/henlv-ac220s3_3dcs-3w
+LibName34=C:/Users/bomma/Documents/GitHub/kicad-libraries/library/triac_board
+LibName35=C:/Users/bomma/Documents/GitHub/kicad-library/library/relays
+LibName36=df08s1_bridge_rec-ic
+LibName37=4n35_opto
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=C:/Users/bomma/Documents/GitHub/My Design templates/Pcb_Schematic_Worksheet.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
