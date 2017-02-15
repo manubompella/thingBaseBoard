@@ -36,6 +36,7 @@ LIBS:triac_board
 LIBS:relays
 LIBS:df08s1_bridge_rec-ic
 LIBS:4n35_opto
+LIBS:thingBaseBoard_v1P0-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -149,9 +150,6 @@ F 3 "" H 8850 2550 50  0000 C CNN
 	1    8650 2750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1700 1825 1700 2100
-Connection ~ 1700 1950
 $Comp
 L CONN_01X08 P3
 U 1 1 5894527A
@@ -357,8 +355,6 @@ F 3 "" H 2250 2200 50  0000 C CNN
 	1    2250 2200
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1700 1950 2250 1950
 Wire Wire Line
 	2250 2450 2525 2450
 Wire Wire Line
@@ -1724,4 +1720,12 @@ Wire Wire Line
 Connection ~ 1325 7425
 Wire Wire Line
 	1025 6825 1025 7025
+Text GLabel 1600 2100 0    60   Input ~ 0
+L
+Wire Wire Line
+	1600 2100 1700 2100
+Wire Wire Line
+	1700 1825 1700 1950
+Wire Wire Line
+	1700 1950 2250 1950
 $EndSCHEMATC
