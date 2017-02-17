@@ -1,4 +1,4 @@
-update=2/3/2017 7:36:30 PM
+update=2/17/2017 3:12:06 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -33,6 +33,8 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../../kicad-libraries/library
@@ -74,5 +76,5 @@ LibName34=C:/Users/bomma/Documents/GitHub/kicad-libraries/library/triac_board
 LibName35=C:/Users/bomma/Documents/GitHub/kicad-library/library/relays
 LibName36=df08s1_bridge_rec-ic
 LibName37=4n35_opto
-[general]
-version=1
+LibName38=relays
+LibName39=Songle_SRD-03VDC-SL-C
